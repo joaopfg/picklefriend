@@ -40,5 +40,5 @@ tsc
 ### Unit tests
 The unit tests are located in the `test` folder. If you want to create new tests, they must go inside this folder and the test script must be updated in `package.json`.
 ```bash
-npm run test
+npm test
 ```
