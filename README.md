@@ -11,6 +11,15 @@ Typescript package compatible with python's pickle loads/dumps
 npm i picklefriend
 ```
 
+# Usage
+```typescript
+import { pickle } from 'picklefriend'
+let myString = "my test string";
+let myStringDumped = pickle.dumps(myString);
+let myStringLoaded = pickle.loads(myStringDumped);
+console.log(myStringLoaded);
+```
+
 # Development
 ### Clone the repository and entry in the root folder
 ```bash
