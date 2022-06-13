@@ -1,5 +1,5 @@
 {
-  "name": "picklets",
+  "name": "picklefriend",
   "version": "1.0.0",
   "description": "Typescript package compatible with python's pickle loads/dumps",
   "main": "dist/index.js",

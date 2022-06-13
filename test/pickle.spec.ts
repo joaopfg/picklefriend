@@ -9,4 +9,3 @@ describe('Testing loading of a string', () => {
         expect(pickle.loads(pickle.dumps("test"))).to.equal("test");
     });
 });
-
