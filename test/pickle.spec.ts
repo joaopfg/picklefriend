@@ -1,4 +1,4 @@
-import { pickle } from './pickle';
+import { pickle } from '../src/pickle';
 
 import * as chai from 'chai';
 
