@@ -1,6 +1,6 @@
 {
   "name": "picklefriend",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Typescript package compatible with python's pickle loads/dumps",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
