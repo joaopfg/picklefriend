@@ -1,6 +1,7 @@
 # picklefriend
 
 [![npm version](https://img.shields.io/npm/v/picklefriend.svg?style=flat-square)](https://www.npmjs.com/package/picklefriend)
+[![build](https://img.shields.io/github/workflow/status/joaopfg/picklefriend/Node.js%20CI?style=flat-square&label=build)](https://github.com/joaopfg/picklefriend/actions)
 [![github](https://flat.badgen.net/badge/icon/github?icon=github&label)](https://github.com/joaopfg/picklefriend/)
 [![sponsors](https://img.shields.io/github/sponsors/joaopfg?style=flat-square&color=1da1f2)](https://github.com/sponsors/joaopfg/)
 
