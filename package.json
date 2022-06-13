@@ -22,7 +22,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/joaopfg/picklets.git"
+    "url": "git+https://github.com/joaopfg/picklefriend.git"
   },
   "keywords": [
     "pickle",
@@ -32,7 +32,7 @@
   "author": "joaopfg",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/joaopfg/picklets/issues"
+    "url": "https://github.com/joaopfg/picklefriend/issues"
   },
-  "homepage": "https://github.com/joaopfg/picklets#readme"
+  "homepage": "https://github.com/joaopfg/picklefriend#readme"
 }
