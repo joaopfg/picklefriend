@@ -91,7 +91,7 @@ class Pickle{
             case this.SETITEM:
                 this.arg1 = stack.pop();
                 this.arg0 = stack.pop();
-                stack[stack.length-1][this.arg0] = [this.arg1];
+                stack[stack.length-1][this.arg0] = this.arg1;
                 this.process_op(op.slice(1), memo, stack);
                 break
             default:
@@ -140,8 +140,8 @@ class Pickle{
                     memo.push(obj);
 
                     for (const key in obj) {
-                        sAux2 += this._dumps(obj[key], memo);
                         sAux2 += this._dumps(key, memo);
+                        sAux2 += this._dumps(obj[key], memo);
                         sAux2 += this.SETITEM;
                     }
                     return sAux2;
