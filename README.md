@@ -24,7 +24,7 @@ console.log(myStringLoaded);
 ```
 
 # Development
-### Clone the repository and entry in the root folder
+### Fork the main branch, clone it and entry in the root folder
 ```bash
 git clone git@github.com:joaopfg/picklefriend.git
 cd picklefriend
